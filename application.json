@@ -1,0 +1,48 @@
+{
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {},
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#E3DEFF",
+  "evaluationVersion": 2,
+  "icon": "basketball",
+  "pages": [
+    {
+      "id": "crudpage_1",
+      "isDefault": true
+    },
+    {
+      "id": "crudpage_1 Copy",
+      "isDefault": false
+    },
+    {
+      "id": "ApiCalls_1",
+      "isDefault": false
+    },
+    {
+      "id": "ApiCalls_1 Copy",
+      "isDefault": false
+    }
+  ],
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {},
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

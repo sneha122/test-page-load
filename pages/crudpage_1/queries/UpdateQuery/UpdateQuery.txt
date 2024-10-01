@@ -1,0 +1,7 @@
+UPDATE public."configs" SET
+		"configName" = '{{update_form.fieldState.configName.isVisible ? update_form.formData.configName : update_form.sourceData.configName}}',
+		"configJson" = '{{update_form.fieldState.configJson.isVisible ? update_form.formData.configJson : update_form.sourceData.configJson}}',
+    "configVersion" = '{{update_form.fieldState.configVersion.isVisible ? update_form.formData.configVersion : update_form.sourceData.configVersion}}',
+		"updatedAt" = '{{update_form.fieldState.updatedAt.isVisible ? update_form.formData.updatedAt : update_form.sourceData.updatedAt}}',
+		"updatedBy" = '{{update_form.fieldState.updatedBy.isVisible ? update_form.formData.updatedBy : update_form.sourceData.updatedBy}}'
+WHERE "id" = {{data_table.selectedRow.id}};
